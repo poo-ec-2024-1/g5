@@ -31,7 +31,16 @@ public class ControllerInicio {
     }
 
     @FXML
-    void botaoCimento(ActionEvent event) {
+    void botaoCimento(ActionEvent event)  throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("cimento.fxml"));
+        Parent root = loader.load();
+        Scene cena = new Scene(root);
+
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(cena);
+        stage.setTitle("Calcular Cimento");
+        stage.show();
+    } {
 
     }
 
