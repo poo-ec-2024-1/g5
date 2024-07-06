@@ -7,10 +7,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerTinta">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerTijolo">
    <children>
-      <Label layoutX="47.0" layoutY="122.0" text="Tamanho da superficier:" />
-      <Label layoutX="64.0" layoutY="47.0" prefHeight="43.0" prefWidth="472.0" text="Calculadora de latas de Tinta">
+      <Label layoutX="47.0" layoutY="122.0" text="Tamanho desejado da parede" />
+      <Label layoutX="47.0" layoutY="52.0" prefHeight="43.0" prefWidth="472.0" text="Calculadora de Tijolos">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
@@ -20,9 +20,9 @@
       <Text layoutX="208.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" />
       <Button layoutX="50.0" layoutY="211.0" mnemonicParsing="false" onAction="#botaoCalcularClicado" text="Calcular" />
       <Button layoutX="124.0" layoutY="211.0" mnemonicParsing="false" onAction="#botaoLimparClicado" text="Limpar" />
-      <Text layoutX="56.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você precisará de :" />
-      <Label fx:id="labelResultado" layoutX="161.0" layoutY="254.0" text="INFORME O TAMANHO DA SUPERFICIE" />
+      <Text layoutX="52.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você precisará de :" />
+      <Label fx:id="labelResultado" layoutX="157.0" layoutY="254.0" prefHeight="17.0" prefWidth="263.0" text="INFORME O TAMANHO DESEJADO DA PAREDE" />
       <Button layoutX="518.0" layoutY="250.0" mnemonicParsing="false" onAction="#botaoVoltar" text="Voltar" />
-      <Label fx:id="labelPreco" layoutX="161.0" layoutY="275.0" text=" " />
+      <Label fx:id="labelPreco" layoutX="157.0" layoutY="275.0" text=" " />
    </children>
 </Pane>

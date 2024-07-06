@@ -36,8 +36,15 @@ public class ControllerInicio {
     }
 
     @FXML
-    void botaoTijolo(ActionEvent event) {
+    void botaoTijolo(ActionEvent event)  throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("tijolo.fxml"));
+        Parent root = loader.load();
+        Scene cena = new Scene(root);
 
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(cena);
+        stage.setTitle("Calcular Tijolos");
+        stage.show();
     }
 
     @FXML
