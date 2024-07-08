@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Carrinho
+comment1.params=
+comment1.target=Carrinho()
+comment2.params=
+comment2.target=void\ mostraLista()
+comment3.params=areaParede\ areaChao
+comment3.target=double\ calulaPre\u00E7oTotal(double,\ double)
+numComments=4

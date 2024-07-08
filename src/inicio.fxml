@@ -28,7 +28,7 @@
       <Button layoutX="710.0" layoutY="37.0" mnemonicParsing="false" onAction="#irAoCarrinho" text="Carrinho" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="610.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../imgs/Sem%20título.png" />
+            <Image url="@../imgs/placeholder.png" />
          </image>
       </ImageView>
    </children>
