@@ -22,7 +22,7 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 * Analista: Abner Gabriel
 * Testador: Vitor Alfredo
 
-#Seção 4
+# Seção 4
 ![image](https://github.com/poo-ec-2024-1/g5/assets/167905655/0fee9905-e442-4bd4-91f1-a5bde97ac5b0)
 
 * Casos de Uso: A usabilidade do nosso projeto cabe, principalmente, para o cliente que deseja comprar os materiais de construção apropriados para determinada área, priorizando sempre a maior emonomia possível. Com o usuário oferencendo as medidas essenciais para o cálculo da área ou região que deva ser construída ou reformada, o próprio sistema do aplicativo irá realizar os cálculos para o fornecimento dos produtos.
