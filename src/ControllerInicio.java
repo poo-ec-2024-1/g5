@@ -13,6 +13,7 @@ import java.io.IOException;
 
 public class ControllerInicio {
 
+
     @FXML
     void acessarLoja(ActionEvent event) {
 

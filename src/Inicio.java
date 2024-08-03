@@ -17,6 +17,14 @@ public class Inicio extends Application {
 
         primaryStage.setTitle("Tela Inicial");
         primaryStage.setScene(tela);
+
+        // Define o tamanho inicial da janela
+        primaryStage.setWidth(841); // Largura do FXML
+        primaryStage.setHeight(533); // Altura do FXML
+
+        // Impede o redimensionamento
+        primaryStage.setResizable(false);
+
         primaryStage.show();
     }
 }

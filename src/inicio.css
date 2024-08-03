@@ -1,0 +1,98 @@
+/* Estilo padrão do botão Ceramica */
+#botaoCeramica {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px; /* Inicialmente sem borda */
+    -fx-border-radius: 10px; /* Define o raio da borda arredondada */
+    -fx-padding: 5px; /* Espaço interno para o efeito de borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo quando o mouse passa por cima do botão Ceramica */
+#botaoCeramica:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px; /* Largura da borda interna simulada */
+    -fx-border-radius: 10px; /* Garante que a borda arredondada também seja aplicada no estado hover */
+    -fx-padding: 3px; /* Reduz o padding para simular uma borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo padrão do botão Tinta */
+#botaoTinta {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px; /* Inicialmente sem borda */
+    -fx-border-radius: 10px; /* Define o raio da borda arredondada */
+    -fx-padding: 5px; /* Espaço interno para o efeito de borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo quando o mouse passa por cima do botão Tinta */
+#botaoTinta:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px; /* Largura da borda interna simulada */
+    -fx-border-radius: 10px; /* Garante que a borda arredondada também seja aplicada no estado hover */
+    -fx-padding: 3px; /* Reduz o padding para simular uma borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+/* Estilo padrão do botão Cimento */
+#botaoCimento {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px; /* Inicialmente sem borda */
+    -fx-border-radius: 10px; /* Define o raio da borda arredondada */
+    -fx-padding: 5px; /* Espaço interno para o efeito de borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo quando o mouse passa por cima do botão Cimento */
+#botaoCimento:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px; /* Largura da borda interna simulada */
+    -fx-border-radius: 10px; /* Garante que a borda arredondada também seja aplicada no estado hover */
+    -fx-padding: 3px; /* Reduz o padding para simular uma borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo padrão do botão Tijolo */
+#botaoTijolo {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px; /* Inicialmente sem borda */
+    -fx-border-radius: 10px; /* Define o raio da borda arredondada */
+    -fx-padding: 5px; /* Espaço interno para o efeito de borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo quando o mouse passa por cima do botão Tijolo */
+#botaoTijolo:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px; /* Largura da borda interna simulada */
+    -fx-border-radius: 10px; /* Garante que a borda arredondada também seja aplicada no estado hover */
+    -fx-padding: 3px; /* Reduz o padding para simular uma borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+/* Estilo padrão do botão Acessar Loja */
+#acessarLoja {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px; /* Inicialmente sem borda */
+    -fx-border-radius: 10px; /* Define o raio da borda arredondada */
+    -fx-padding: 5px; /* Espaço interno para o efeito de borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
+/* Estilo quando o mouse passa por cima do botão Acessar Loja */
+#acessarLoja:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2px; /* Largura da borda interna simulada */
+    -fx-border-radius: 10px; /* Garante que a borda arredondada também seja aplicada no estado hover */
+    -fx-padding: 3px; /* Reduz o padding para simular uma borda interna */
+    -fx-background-insets: 0, 0, 0, 0; /* Ajusta os insets para criar o efeito de borda interna */
+}
+
