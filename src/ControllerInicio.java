@@ -15,8 +15,15 @@ public class ControllerInicio {
 
 
     @FXML
-    void acessarLoja(ActionEvent event) {
+    void acessarLoja(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loja.fxml"));
+        Parent root = loader.load();
+        Scene cena = new Scene(root);
 
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(cena);
+        stage.setTitle("Selecione seus produtos.");
+        stage.show();
     }
 
     @FXML

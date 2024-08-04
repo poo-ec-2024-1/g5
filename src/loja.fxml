@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="845.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLoja">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="533.0" prefWidth="828.0">
+         <children>
+            <ImageView fitHeight="843.0" fitWidth="845.0" focusTraversable="true" layoutX="-7.0" layoutY="-305.0" pickOnBounds="true">
+               <image>
+                  <Image url="@imgs/Story%20do%20Instagram%20Moderno%20Caixinha%20de%20Perguntas%20Material%20de%20Construção.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="143.0" layoutY="233.0" mnemonicParsing="false" onAction="#adicionarCeramica" text="Adicionar ao carrinho" />
+            <TextField fx:id="quantidadeCeramica" layoutX="56.0" layoutY="233.0" prefHeight="25.0" prefWidth="77.0" promptText="Quantidade" />
+            <Button layoutX="56.0" layoutY="33.0" mnemonicParsing="false" onAction="#botaoVoltar" text="voltar" />
+            <Button layoutX="728.0" layoutY="33.0" mnemonicParsing="false" onAction="#botaoCarrinho" text="Carrinho" />
+            <Button layoutX="396.0" layoutY="233.0" mnemonicParsing="false" onAction="#adicionarCimento" text="Adicionar ao carrinho" />
+            <TextField fx:id="quantidadeCimento" layoutX="309.0" layoutY="233.0" prefHeight="25.0" prefWidth="77.0" promptText="Quantidade" />
+            <Button layoutX="652.0" layoutY="233.0" mnemonicParsing="false" onAction="#adicionarTinta" text="Adicionar ao carrinho" />
+            <TextField fx:id="quantidadeTinta" layoutX="565.0" layoutY="233.0" prefHeight="25.0" prefWidth="77.0" promptText="Quantidade" />
+            <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="117.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/ceramica%20img.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="114.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Porcelanato 100x100" />
+            <Text layoutX="127.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço: R$120,00" />
+            <ImageView fitHeight="91.0" fitWidth="109.0" layoutX="370.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/cimento%20img.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="374.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pacote Cimento" />
+            <Text layoutX="386.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+            <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="630.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/tinta%20img.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="642.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lata de Tinta" />
+            <Text layoutX="648.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+            <Button layoutX="148.0" layoutY="447.0" mnemonicParsing="false" onAction="#adicionarTijolo" text="Adicionar ao carrinho" />
+            <TextField fx:id="quantidadeTijolo" layoutX="61.0" layoutY="447.0" prefHeight="25.0" prefWidth="77.0" promptText="Quantidade" />
+            <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="122.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/tijolo%20png.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="126.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tijolo Unidade" />
+            <Text layoutX="137.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+            <Label fx:id="labelAdicionado" layoutX="315.0" layoutY="445.0" prefHeight="29.0" prefWidth="501.0" text="TESTE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
