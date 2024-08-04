@@ -1,35 +1,33 @@
-# Relatório do Projeto de Programação Orientada a Objetos
-# 1. Introdução
+git commit -m "Relatório do Projeto de Programação Orientada a Objetos
 
-    Nome do Projeto: Construclick - Projeto G5
-    Líder do Projeto: Vitor Alexandre Fernandes
-    Data: 10 / julho / 2024
-    Commit referenciado: https://github.com/poo-ec-2024-1/g5#
+## 1. Introdução
 
-# 2. Objetivos do Projeto
+- Nome do Projeto: Construclick - Projeto G5
+- Líder do Projeto: Vitor Alexandre Fernandes
+- Data: 10 de julho de 2024
+- Commit referenciado: https://github.com/poo-ec-2024-1/g5#
 
-    * Objetivo Geral: Criação de um programa capaz de fornecer valores de materiais e outros produtos de construção de maneira rápida e intuitiva
-    * Objetivos Específicos:
-- Fornecimento de um orçamento com valores corretos e precisos;
-- Facilitação para o usuário na compra de produtos da área de Construção Civil;
-- Rápido manuseio e compreensão das ferramentas do aplicativo.
+## 2. Objetivos do Projeto
 
+- **Objetivo Geral:** Criar um programa capaz de fornecer valores de materiais e outros produtos de construção de maneira rápida e intuitiva.
+- **Objetivos Específicos:**
+  - Fornecer um orçamento com valores corretos e precisos.
+  - Facilitar a compra de produtos da área de Construção Civil para o usuário.
+  - Garantir o rápido manuseio e compreensão das ferramentas do aplicativo.
 
-# 3. Desenvolvimento e Implementação
+## 3. Desenvolvimento e Implementação
 
-    * Cronograma: Desenvolvimento da parte de Back-end pelo Pedro Campos em conjunto com a programação da área de Front-end pelo Nicolas Kalebe, para desenvolvimento do aplicativo, aplicações de novas ferramentas e construção do código em geral. 
-Além disso, entra em conjunto o auxílio do Vitor Alfredo e do Abner Gabriel, como Testador e Analista de Dados, respectivamente, na análise e compreensão do código, facilitando o desenvolvimento do projeto e consertando erros e eventuais problemas.
-    * Funcionalidades Implementadas:
-- Carrinho de compras dentro do projeto, facilitando a ferramenta de compras no aplicativo;
-- Interface facilitada para o usuário desenvolvida com JavaFX.
+- **Cronograma:**
+  O desenvolvimento da parte de Back-end foi realizado por Pedro Campos em conjunto com a programação da área de Front-end por Nicolas Kalebe, visando o desenvolvimento do aplicativo, aplicação de novas ferramentas e construção do código em geral. Além disso, Vitor Alfredo e Abner Gabriel contribuíram como Testador e Analista de Dados, respectivamente, auxiliando na análise e compreensão do código, facilitando o desenvolvimento do projeto e corrigindo erros e eventuais problemas.
 
-    * Desafios Enfrentados: Os principais desafios encontrados foram da construção do carrinho e principalmente sua implementação dentro do código. Outro problema encontrado foi a utilizaçaõ da IDE BLUEJ, que apresentou muitos problemas de compilação e 
-fornecimento de ferramentas úteis e criativas para o projeto. Com isso, nosso grupo em conjunto utilizou a IDE IntelliJ IDEA, que permitou a codificação mais simplificada e otimizada, em conjunto com o ScaneBuilder para desenvolvimento de uma interface 
-agradável, que facilitou o entendimento das mecânicas da aplicação.
+- **Funcionalidades Implementadas:**
+  - Implementação de um carrinho de compras, facilitando o processo de compra no aplicativo.
+  - Desenvolvimento de uma interface amigável para o usuário utilizando JavaFX.
 
-# 4. Conclusão
+- **Desafios Enfrentados:**
+  Os principais desafios encontrados foram na construção e implementação do carrinho de compras dentro do código. Outro problema significativo foi a utilização da IDE BLUEJ, que apresentou muitos problemas de compilação e falta de ferramentas úteis e criativas para o projeto. Para resolver isso, nosso grupo decidiu usar a IDE IntelliJ IDEA, que permitiu uma codificação mais simplificada e otimizada, juntamente com o SceneBuilder para o desenvolvimento de uma interface agradável, facilitando o entendimento das mecânicas da aplicação.
 
-    * Resumo do Progresso: No geral, o desenvolvimento do projeto foi complexo, requisitando um conhecimento elevado de progração em Java e sua implementação com ferramentas de Front-end que possibilitaram uma interface com o usuário. Contudo, ao final
- ficamos realizados na criação de um aplicativo de compras de materiais de Construção Civil completo e de fácil utilização pelo usuário, com ferramentas úteis e intuitivas que permitem a criação de um orçamento preciso e econômico, mostrando a quantidade 
-necessária de determinado produto para uma área informada pelo comprador.
-    
+## 4. Conclusão
+
+- **Resumo do Progresso:**
+  No geral, o desenvolvimento do projeto foi complexo, exigindo um conhecimento avançado de programação em Java e sua integração com ferramentas de Front-end que possibilitaram uma interface eficiente e intuitiva para o usuário. Contudo, ao final, ficamos realizados na criação de um aplicativo de compras de materiais de Construção Civil completo e de fácil utilização pelo usuário, com ferramentas úteis e intuitivas que permitem a criação de um orçamento preciso e econômico, mostrando a quantidade necessária de determinado produto para uma área informada pelo comprador."
