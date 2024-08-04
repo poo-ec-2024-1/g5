@@ -1,4 +1,4 @@
-git commit -m "Relatório do Projeto de Programação Orientada a Objetos
+# Relatório do Projeto de Programação Orientada a Objetos
 
 ## 1. Introdução
 
@@ -18,16 +18,22 @@ git commit -m "Relatório do Projeto de Programação Orientada a Objetos
 ## 3. Desenvolvimento e Implementação
 
 - **Cronograma:**
-  O desenvolvimento da parte de Back-end foi realizado por Pedro Campos em conjunto com a programação da área de Front-end por Nicolas Kalebe, visando o desenvolvimento do aplicativo, aplicação de novas ferramentas e construção do código em geral. Além disso, Vitor Alfredo e Abner Gabriel contribuíram como Testador e Analista de Dados, respectivamente, auxiliando na análise e compreensão do código, facilitando o desenvolvimento do projeto e corrigindo erros e eventuais problemas.
+  O desenvolvimento da parte de Back-end foi realizado por Pedro Campos em conjunto com a programação da área de Front-end por Nicolas Kalebe, visando o desenvolvimento do aplicativo, 
+  aplicação de novas ferramentas e construção do código em geral. Além disso, Vitor Alfredo e Abner Gabriel contribuíram como Testador e Analista de Dados, respectivamente, 
+  auxiliando na análise e compreensão do código, facilitando o desenvolvimento do projeto e corrigindo erros e eventuais problemas.
 
 - **Funcionalidades Implementadas:**
   - Implementação de um carrinho de compras, facilitando o processo de compra no aplicativo.
   - Desenvolvimento de uma interface amigável para o usuário utilizando JavaFX.
 
 - **Desafios Enfrentados:**
-  Os principais desafios encontrados foram na construção e implementação do carrinho de compras dentro do código. Outro problema significativo foi a utilização da IDE BLUEJ, que apresentou muitos problemas de compilação e falta de ferramentas úteis e criativas para o projeto. Para resolver isso, nosso grupo decidiu usar a IDE IntelliJ IDEA, que permitiu uma codificação mais simplificada e otimizada, juntamente com o SceneBuilder para o desenvolvimento de uma interface agradável, facilitando o entendimento das mecânicas da aplicação.
+  Os principais desafios encontrados foram na construção e implementação do carrinho de compras dentro do código. Outro problema significativo foi a utilização da IDE BLUEJ, 
+  que apresentou muitos problemas de compilação e falta de ferramentas úteis e criativas para o projeto. Para resolver isso, nosso grupo decidiu usar a IDE IntelliJ IDEA, 
+  que permitiu uma codificação mais simplificada e otimizada, juntamente com o SceneBuilder para o desenvolvimento de uma interface agradável, facilitando o entendimento das mecânicas da aplicação.
 
 ## 4. Conclusão
 
 - **Resumo do Progresso:**
-  No geral, o desenvolvimento do projeto foi complexo, exigindo um conhecimento avançado de programação em Java e sua integração com ferramentas de Front-end que possibilitaram uma interface eficiente e intuitiva para o usuário. Contudo, ao final, ficamos realizados na criação de um aplicativo de compras de materiais de Construção Civil completo e de fácil utilização pelo usuário, com ferramentas úteis e intuitivas que permitem a criação de um orçamento preciso e econômico, mostrando a quantidade necessária de determinado produto para uma área informada pelo comprador."
+  No geral, o desenvolvimento do projeto foi complexo, exigindo um conhecimento avançado de programação em Java e sua integração com ferramentas de Front-end que possibilitaram uma interface eficiente e 
+  intuitiva para o usuário. Contudo, ao final, ficamos realizados na criação de um aplicativo de compras de materiais de Construção Civil completo e de fácil utilização pelo usuário, 
+  com ferramentas úteis e intuitivas que permitem a criação de um orçamento preciso e econômico, mostrando a quantidade necessária de determinado produto para uma área informada pelo comprador.
