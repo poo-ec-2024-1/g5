@@ -9,7 +9,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <Pane prefHeight="533.0" prefWidth="845.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLoja">
    <children>
       <ImageView fitHeight="771.0" fitWidth="845.0" focusTraversable="true" layoutY="-238.0" pickOnBounds="true">
@@ -38,14 +37,14 @@
          </image>
       </ImageView>
       <Text layoutX="374.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pacote Cimento" />
-      <Text layoutX="386.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+      <Text layoutX="377.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço: R$29.90" />
       <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="630.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@imgs/tinta%20img.jpg" />
          </image>
       </ImageView>
       <Text layoutX="642.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lata de Tinta" />
-      <Text layoutX="648.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+      <Text layoutX="633.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço: R$109.90" />
       <Button layoutX="148.0" layoutY="447.0" mnemonicParsing="false" onAction="#adicionarTijolo" text="Adicionar ao carrinho" />
       <TextField fx:id="quantidadeTijolo" layoutX="61.0" layoutY="447.0" prefHeight="25.0" prefWidth="77.0" promptText="Quantidade" />
       <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="122.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
@@ -54,7 +53,7 @@
          </image>
       </ImageView>
       <Text layoutX="126.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tijolo Unidade" />
-      <Text layoutX="137.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço ????" />
+      <Text layoutX="127.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço: R$0.69" />
       <Label fx:id="labelAdicionado" layoutX="315.0" layoutY="398.0" prefHeight="29.0" prefWidth="501.0">
          <font>
             <Font size="15.0" />

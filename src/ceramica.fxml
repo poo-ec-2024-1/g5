@@ -16,8 +16,8 @@
             <Image url="@imgs/Story%20do%20Instagram%20Moderno%20Caixinha%20de%20Perguntas%20Material%20de%20Construção.png" />
          </image>
       </ImageView>
-      <Label layoutX="257.0" layoutY="224.0" text="Tamanho da superficier:" />
-      <Label layoutX="197.0" layoutY="163.0" prefHeight="43.0" prefWidth="472.0" text="Calculadora de pacotes de Cerâmica">
+      <Label layoutX="257.0" layoutY="224.0" text="Tamanho da superficie:" />
+      <Label layoutX="181.0" layoutY="162.0" prefHeight="43.0" prefWidth="489.0" text="Calculadora de pacotes de Porcelanato">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
