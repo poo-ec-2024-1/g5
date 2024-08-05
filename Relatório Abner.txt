@@ -45,5 +45,5 @@ Alguns dos desafios Enfrentados
 Desafio 1: Configurar a IDE Intellij para que conseguisse editar
 Desafio 2: crud- "finalizar"
 
-Nome do Analista de Dados: Abner Gabriel Monteiro Tavares
+Nome do Analista de Sistemas: Abner Gabriel Monteiro Tavares
 Data: 04/08/2024
