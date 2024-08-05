@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ControllerCarrinho {
 
-    double precoCimento, precoTijolo, precoPorcelanato, precoTinta;
+    double precoCimento, precoTijolo, precoPorcelanato, precoTinta, precoTotal;
 
     @FXML
     private TextArea campoCarrinho;
@@ -65,10 +65,11 @@ public class ControllerCarrinho {
             campoCarrinho2.appendText("Tinta: R$" + String.format("%.2f", precoTinta) + "\n");
         }
 
-        double precoTotal = precoTijolo + precoCimento + precoTinta + precoPorcelanato;
+        precoTotal = precoTijolo + precoCimento + precoTinta + precoPorcelanato;
 
-        campoCarrinho2.appendText("\n \nValor Total da Compra: R$" + String.format("%.2f", precoTotal));
-
+        if(precoTotal>0) {
+            campoCarrinho2.appendText("\n \nValor Total da Compra: R$" + String.format("%.2f", precoTotal));
+        }
 
     }
     @FXML
@@ -101,28 +102,41 @@ public class ControllerCarrinho {
         // Limpar os campos de texto na interface
         campoCarrinho.setText("");
         campoCarrinho2.setText("");
+
+        precoCimento=0;
+        precoTijolo=0;
+        precoTinta=0;
+        precoPorcelanato=0;
+
     }
 
     @FXML
     void comprar(ActionEvent event) {
-        Database database = new Database("produto.db");
-        ProdutoRepository repo = new ProdutoRepository(database);
+        if (precoTotal >0 ) {
+            Database database = new Database("produto.db");
+            ProdutoRepository repo = new ProdutoRepository(database);
 
-        // Carregar todos os produtos
-        List<Produto> produtos = repo.loadAll();
+            // Carregar todos os produtos
+            List<Produto> produtos = repo.loadAll();
 
-        // Atualizar a quantidade de todos os produtos para 0 e remover do carrinho
-        for (Produto produto : produtos) {
-            produto.setQuantidade(0);
-            produto.set_noCarrinho(false);
-            repo.update(produto);
+            // Atualizar a quantidade de todos os produtos para 0 e remover do carrinho
+            for (Produto produto : produtos) {
+                produto.setQuantidade(0);
+                produto.set_noCarrinho(false);
+                repo.update(produto);
+            }
+
+            // Limpar os campos de texto na interface
+            campoCarrinho.setText("");
+            campoCarrinho2.setText("");
+
+            if (precoTotal > 0) {
+                compraRealizada.setText("Compra realizada com sucesso!!");
+            }
+            precoCimento = 0;
+            precoTijolo = 0;
+            precoTinta = 0;
+            precoPorcelanato = 0;
         }
-
-        // Limpar os campos de texto na interface
-        campoCarrinho.setText("");
-        campoCarrinho2.setText("");
-
-        compraRealizada.setText("Compra realizada com sucesso!!");
     }
-
 }
