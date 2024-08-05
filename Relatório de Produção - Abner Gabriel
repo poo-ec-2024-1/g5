@@ -20,9 +20,9 @@ assim dando a opção de verificar diferentes orçamentos.
 
 Descrição: O projeto foi dividido em quatro etapas sendo elas:
 
-1° etapa: A ideia de o que criar - algumas das opções antes do projeto ser decidido, foi a de criar
-uma aplicação que realiza-se pedidos de comidas e seria focada em entregas, outra das opções seria
-uma aplicação de entregas de uma farmácia, mas no final foi decidido o projeto que faria um orçamento
+1° etapa: A ideia de o que criar, algumas das opções antes do projeto ser decidido, foi a de criar
+uma aplicação que realizasse pedidos de comidas e seria focada em entregas, outra das opções seria
+uma aplicação de entregas de uma farmácia, mas no final foi decidido que o projeto faria um orçamento
 através das dimensões de uma construção e poderia enviar ao um carrinho de lojas de contrução.
 
 2° etapa: Pensar como rodaria essa aplicação e qual IDE nós utilizariamos, foi quando encontramos o
