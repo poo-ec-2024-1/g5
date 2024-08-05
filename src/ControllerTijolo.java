@@ -3,7 +3,6 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -27,7 +26,7 @@ public class ControllerTijolo {
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {
-        double tijolosPorMetroQuadrado = 39.0;
+        double tijolosPorMetroQuadrado = 18.1488203267;
         double precoUnitario = 0.69;
 
         try {

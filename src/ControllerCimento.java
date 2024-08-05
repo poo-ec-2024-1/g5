@@ -27,7 +27,7 @@ public class ControllerCimento {
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {
-        double sacosPorMetroQuadrado = 1.57894736842;
+        double sacosPorMetroQuadrado = 0.98642105;
         double precoUnitario = 29.90;
 
         try {

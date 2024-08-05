@@ -27,8 +27,8 @@ public class ControllerCeramica {
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {
-        double areaPorPorcelanato = 2;
-        double precoUnitario = 45.0;
+        double areaPorPorcelanato = 1;
+        double precoUnitario = 120;
 
         try {
             double metro1 = Double.parseDouble(campoMetro1.getText());

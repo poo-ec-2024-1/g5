@@ -27,7 +27,7 @@ public class ControllerTinta {
     @FXML
     void botaoCalcularClicado(ActionEvent event) {
         double coberturaPorLata = 20.0;
-        double precoUnitario = 169.0;
+        double precoUnitario = 109.90;
 
         try {
             double metro1 = Double.parseDouble(campoMetro1.getText());

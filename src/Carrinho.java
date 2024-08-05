@@ -4,18 +4,18 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Tinta extends Application {
+public class Carrinho extends Application {
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("tinta.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("carrinho.fxml"));
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
-        primaryStage.setTitle("Tinta janela");
+        primaryStage.setTitle("Carrinho de compras.");
         primaryStage.setScene(tela);
         primaryStage.show();
     }

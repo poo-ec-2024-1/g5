@@ -65,7 +65,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button contentDisplay="CENTER" layoutX="605.0" layoutY="31.0" mnemonicParsing="false" onAction="#irAoCarrinho" prefHeight="53.0" prefWidth="142.0" style="-fx-background-color: transparent;" text="Carrinho" textFill="TRANSPARENT">
+      <Button fx:id="irAoCarrinho" contentDisplay="CENTER" layoutX="631.0" layoutY="25.0" mnemonicParsing="false" onAction="#irAoCarrinho" prefHeight="53.0" prefWidth="0.0" style="-fx-background-color: transparent;" text="Carrinho" textFill="TRANSPARENT">
          <graphic>
             <ImageView fitHeight="70.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                <image>
