@@ -1,13 +1,13 @@
 # Relatório do Projeto de Programação Orientada a Objetos
 
-## 1. Introdução
+# 1. Introdução
 
 - Nome do Projeto: Construclick - Projeto G5
 - Líder do Projeto: Vitor Alexandre Fernandes
 - Data: 10 de julho de 2024
 - Commit referenciado: https://github.com/poo-ec-2024-1/g5#
 
-## 2. Objetivos do Projeto
+# 2. Objetivos do Projeto
 
 - **Objetivo Geral:** Criar um programa capaz de fornecer valores de materiais e outros produtos de construção de maneira rápida e intuitiva.
 - **Objetivos Específicos:**
@@ -15,7 +15,7 @@
   - Facilitar a compra de produtos da área de Construção Civil para o usuário.
   - Garantir o rápido manuseio e compreensão das ferramentas do aplicativo.
 
-## 3. Desenvolvimento e Implementação
+# 3. Desenvolvimento e Implementação
 
 - **Cronograma:**
   O desenvolvimento da parte de Back-end foi realizado por Pedro Campos em conjunto com a programação da área de Front-end por Nicolas Kalebe, visando o desenvolvimento do aplicativo, 
@@ -31,7 +31,7 @@
   que apresentou muitos problemas de compilação e falta de ferramentas úteis e criativas para o projeto. Para resolver isso, nosso grupo decidiu usar a IDE IntelliJ IDEA, 
   que permitiu uma codificação mais simplificada e otimizada, juntamente com o SceneBuilder para o desenvolvimento de uma interface agradável, facilitando o entendimento das mecânicas da aplicação.
 
-## 4. Conclusão
+# 4. Conclusão
 
 - **Resumo do Progresso:**
   No geral, o desenvolvimento do projeto foi complexo, exigindo um conhecimento avançado de programação em Java e sua integração com ferramentas de Front-end que possibilitaram uma interface eficiente e 
