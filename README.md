@@ -29,3 +29,5 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 
 * Casos de Uso: A usabilidade do nosso projeto cabe, principalmente, para o cliente que deseja comprar os materiais de construção apropriados para determinada área, priorizando sempre a maior emonomia possível. Com o usuário oferencendo as medidas essenciais para o cálculo da área ou região que deva ser construída ou reformada, o próprio sistema do aplicativo irá realizar os cálculos para o fornecimento dos produtos.
 
+# Documentação 
+
