@@ -52,10 +52,13 @@ e armazenar os dados de quantidade e preços dos produtos através do CRUD, e ma
 podendo o cliente finalizar sua compra.
             
 # Alguns dos desafios Enfrentados
-Desafio 1: Encontrar como calcular cada produto.
-Desafio 2: Problemas ao fazer o código mais elaborado no BLueJ(não encontramos muitas referências para nos a ajudar a construir o código. 
-Desafio 3: Configurar a IDE Intellij para que conseguisse editar o código.
-Desafio 4: CRUD- "finalizar"
+**Desafio 1:** Encontrar como calcular cada produto.
+
+**Desafio 2:** Problemas ao fazer o código mais elaborado no BLueJ(não encontramos muitas referências para nos a ajudar a construir o código. 
+
+**Desafio 3:** Configurar a IDE Intellij para que conseguisse editar o código.
+
+**Desafio 4:** CRUD- "finalizar"
 
 Nome do Analista de Sistemas: Abner Gabriel Monteiro Tavares
 Data: 04/08/2024
