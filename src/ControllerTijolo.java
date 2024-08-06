@@ -9,7 +9,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+/**
+ * Esta classe representa a classe controller do tijolo e possui a função de calcular orçamento do tijolo para mostrar na classe view do tijolo.
+ */
 public class ControllerTijolo {
 
     @FXML
@@ -26,13 +28,21 @@ public class ControllerTijolo {
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {
+        /**
+         * Quantidade de tijolos por metro quadrado
+         */
         double tijolosPorMetroQuadrado = 18.1488203267;
+        /**
+         * Preço da unidade do tijolo de 6 furos 19cmx29cm
+         */
         double precoUnitario = 0.69;
 
         try {
             double metro1 = Double.parseDouble(campoMetro1.getText());
             double metro2 = Double.parseDouble(campoMetro2.getText());
-
+            /**
+             * Calcula a quantidade de tijolos que vão ser usados e seu preço.
+             */
             double quantidade = Math.ceil((metro1 * metro2) * tijolosPorMetroQuadrado);
             labelResultado.setText(String.format("Serão necessários %.0f tijolos", quantidade));
             labelPreco.setText(String.format("R$ %.2f", precoUnitario * quantidade));

@@ -11,6 +11,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Esta classe representa a classe controller do cimento e possui a função de calcular orçamento do cimento para mostrar na classe view do cimento.
+ */
+
 public class ControllerCimento {
 
     @FXML

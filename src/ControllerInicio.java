@@ -11,7 +11,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.List;
-
+/**
+ * Esta classe representa a classe controller do inicio e possui a função de ao clicar os botões na classe view do inicio se abra as cenas dos produtos.
+ */
 public class ControllerInicio {
 
 

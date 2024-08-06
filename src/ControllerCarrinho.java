@@ -9,7 +9,9 @@ import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.List;
-
+/**
+ * Esta classe representa a classe controller do carrinho e possui a função de calcular o orçamento de cada produto após o usuário adicionar na classe view da loja retornando ao usuário o valor total do orçamento e de cada orçamento e retornando uma mensagem de compra realizda caso o usuário efetue a compra na classe view do carrinho.
+ */
 public class ControllerCarrinho {
 
     double precoCimento, precoTijolo, precoPorcelanato, precoTinta, precoTotal;

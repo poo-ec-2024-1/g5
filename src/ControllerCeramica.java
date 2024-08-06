@@ -10,7 +10,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+/**
+ * Esta classe representa a classe controller da cerâmica e possui a função de calcular orçamento das cerâmicas para mostrar na classe view da cerâmica.
+ */
 public class ControllerCeramica {
 
     @FXML

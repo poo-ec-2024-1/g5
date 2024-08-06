@@ -11,6 +11,12 @@ import javafx.stage.Stage;
 
 import javax.xml.crypto.Data;
 import java.io.IOException;
+
+/**
+ * Esta classe representa a classe controller da loja e possui a função de uma loja que opções de compras onde o usuário indica quanto de cada produto ele necessita após saber pelos orçamentos de cada produto e fazer um orçamento do valor total.
+ * o que armazena esses valores para serem usados no carrinho para finalizar a compra.
+ */
+
 public class ControllerLoja {
     @FXML
     private Label labelAdicionado;
