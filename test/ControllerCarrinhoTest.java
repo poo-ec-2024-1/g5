@@ -46,6 +46,7 @@ public class ControllerCarrinhoTest {
         };
     }
 
+    // Cria e inicializa instâncias de Produto
     private Produto createProduto(String nome, int quantidade, boolean noCarrinho) {
         Produto produto = new Produto();
         produto.setNome(nome);
@@ -58,6 +59,7 @@ public class ControllerCarrinhoTest {
     public void testAtualizarCarrinho() {
         Platform.runLater(() -> {
             try {
+                // Simula o botão atualizar carrinho
                 controller.atualizarCarrinho(new ActionEvent());
 
                 String textoEsperado1 = "Cimento - Quantidade: 1\n" +
@@ -82,6 +84,7 @@ public class ControllerCarrinhoTest {
     public void testLimparCarrinho() {
         Platform.runLater(() -> {
             try {
+                // Limpa o carrinho
                 controller.limparCarrinho(new ActionEvent());
 
                 assertTrue(controller.campoCarrinho.getText().isEmpty());
@@ -100,10 +103,10 @@ public class ControllerCarrinhoTest {
     public void testComprar() {
         Platform.runLater(() -> {
             try {
-                // Primeiro, atualiza o carrinho para simular uma compra
+                // Atualiza o carrinho para simular uma compra
                 controller.atualizarCarrinho(new ActionEvent());
 
-                // Em seguida, realiza a compra
+                // Realiza a compra
                 controller.comprar(new ActionEvent());
 
                 assertTrue(controller.campoCarrinho.getText().isEmpty());
