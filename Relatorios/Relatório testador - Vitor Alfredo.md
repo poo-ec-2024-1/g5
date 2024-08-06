@@ -4,11 +4,10 @@
 Cargo Atribuído: Testador de Software
 
 Tarefas Atribuídas:
-
-    Planejamento e execução de testes funcionais e não-funcionais.
-    Elaboração de casos de teste.
-    Identificação e report de bugs.
-    Colaboração com a equipe de desenvolvimento para resolver problemas.
+    -Planejamento e execução de testes funcionais e não-funcionais.
+    -Elaboração de casos de teste.
+    -Identificação e report de bugs.
+    -Colaboração com a equipe de desenvolvimento para resolver problemas.
 
 Responsabilidades:
     Garantir a qualidade e a funcionalidade do código.
