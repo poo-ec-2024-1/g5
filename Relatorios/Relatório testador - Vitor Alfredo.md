@@ -4,6 +4,7 @@
 Cargo Atribuído: Testador de Software
 
 Tarefas Atribuídas:
+
     -Planejamento e execução de testes funcionais e não-funcionais.
     -Elaboração de casos de teste.
     -Identificação e report de bugs.
@@ -19,7 +20,7 @@ O que foi Exercido na Prática:
     Participação ativa nas reuniões do grupo.
     Contribuição para a melhoria contínua dos processos de teste.
 
-2. Contribuição de Acordo com a Atribuição
+# 2. Contribuição de Acordo com a Atribuição
 
 O que foi Cumprido:
     Execução dos testes funcionais planejados.
@@ -33,7 +34,7 @@ Principais Dificuldades:
     Dificuldade em reproduzir alguns bugs intermitentes.
     Integração de novas ferramentas no processo de teste.
 
-3. Contribuição Além do Atribuído
+# 3. Contribuição Além do Atribuído
 
 Como Ajudei a Equipe:
     Facilitação de sessões de debugging para a equipe de desenvolvimento.
@@ -42,12 +43,12 @@ Como Ajudei a Equipe:
 Como Ajudei Outros a Resolverem Seus Problemas:
     Fornecendo feedback detalhado e sugestões de correção para desenvolvedores sobre bugs reportados.
 
-4. Considerações Gerais
+# 4. Considerações Gerais
 
 O que Aprendi:
     Aprimorei minhas habilidades de produção de classes de teste em Java.
     Ganhei experiência na utilização de novas ferramentas de gestão de testes.
     Aprendi a importância da comunicação eficiente dentro de uma equipe.
 
-Conclusões:
+# Conclusão:
 O período de trabalho como testador foi extremamente enriquecedor, tanto em termos técnicos quanto de colaboração em equipe. As principais metas foram alcançadas, garantindo a qualidade e funcionalidade do software. A experiência adquirida e os desafios enfrentados abriram portas para melhorias contínuas e inovações nos processos de teste futuros.
