@@ -1,5 +1,5 @@
-#Relatório Testador
-1. Atribuição de cargo e tarefas:
+# Relatório Testador
+# 1. Atribuição de cargo e tarefas:
 
 Cargo Atribuído: Testador de Software
 
