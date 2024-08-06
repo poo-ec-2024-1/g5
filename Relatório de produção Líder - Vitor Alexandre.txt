@@ -23,7 +23,7 @@
   auxiliando na análise e compreensão do código, facilitando o desenvolvimento do projeto e corrigindo erros e eventuais problemas.
 
 - **Funcionalidades Implementadas:**
-  - Implementação de um carrinho de compras, facilitando o processo de compra no aplicativo.
+  - Implementação de um carrinho de compras, facilitando o processo de compra no aplicativo;
   - Desenvolvimento de uma interface amigável para o usuário utilizando JavaFX.
 
 - **Desafios Enfrentados:**
