@@ -1,16 +1,12 @@
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
-import javafx.scene.Node;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
 class ControllerInicioTest {
 
@@ -30,12 +26,7 @@ class ControllerInicioTest {
     public void testAcessarLoja() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.acessarLoja(event);
+                controller.acessarLoja(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {
@@ -48,12 +39,7 @@ class ControllerInicioTest {
     public void testBotaoCeramica() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.botaoCeramica(event);
+                controller.botaoCeramica(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {
@@ -66,12 +52,7 @@ class ControllerInicioTest {
     public void testBotaoCimento() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.botaoCimento(event);
+                controller.botaoCimento(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {
@@ -84,12 +65,7 @@ class ControllerInicioTest {
     public void testBotaoTijolo() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.botaoTijolo(event);
+                controller.botaoTijolo(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {
@@ -102,12 +78,7 @@ class ControllerInicioTest {
     public void testBotaoTinta() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.botaoTinta(event);
+                controller.botaoTinta(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {
@@ -120,12 +91,7 @@ class ControllerInicioTest {
     public void testIrAoCarrinho() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Node() {}.getParent());
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.irAoCarrinho(event);
+                controller.irAoCarrinho(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {

@@ -1,19 +1,14 @@
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
-
+import static org.junit.jupiter.api.Assertions.*;
 class ControllerLojaTest {
     private ControllerLoja controller;
     private TextField quantidadeCeramica;
@@ -83,17 +78,10 @@ class ControllerLojaTest {
 
     @Test
     public void testBotaoVoltar() {
-        // Cria uma nova janela (Stage) e define uma cena vazia para simular a navegação
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Label(), 100, 100);
-                stage.setScene(scene);
+                controller.botaoVoltar(new ActionEvent(new javafx.scene.control.Button(), null));
 
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.botaoVoltar(event);
-
-                // Se não lançar uma exceção, o teste é bem-sucedido
                 assertTrue(true);
             } catch (IOException e) {
                 fail("Falha");
@@ -105,12 +93,7 @@ class ControllerLojaTest {
     public void testIrAoCarrinho() {
         Platform.runLater(() -> {
             try {
-                Stage stage = new Stage();
-                Scene scene = new Scene(new Label(), 100, 100);
-                stage.setScene(scene);
-
-                ActionEvent event = new ActionEvent(stage, null);
-                controller.irAoCarrinho(event);
+                controller.irAoCarrinho(new ActionEvent(new javafx.scene.control.Button(), null));
 
                 assertTrue(true);
             } catch (IOException e) {

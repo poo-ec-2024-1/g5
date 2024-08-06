@@ -79,7 +79,7 @@ public class ControllerCeramicaTest {
                 // Simula o clique no botão de voltar
                 controller.botaoVoltar(new ActionEvent(new javafx.scene.control.Button(), null));
 
-                // Checa se a cena foi alterada
+                // Checa se a cena foi alterada, se não lançar uma exceção, o teste é bem sucedido
                 assertTrue(true);
             } catch (IOException e) {
                 fail("Falha ao voltar");
