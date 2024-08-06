@@ -1,6 +1,14 @@
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
+/**
+ * Essa classe que representa um produto no sistema. Esta classe está mapeada para a
+ * tabela "produtos" no banco de dados usando a biblioteca ORMLite.
+ * Essa estrutura permite que a classe Produto seja
+ * utilizada para armazenar dados em um banco de dados relacional, facilitando
+ * operações de CRUD (Create, Read, Update, Delete) com a tabela "produtos".
+ */
+
 @DatabaseTable(tableName = "produtos")
 public class Produto {
 

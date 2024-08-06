@@ -1,16 +1,16 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.List;
+
+/**
+ * Esta classe representa a classe controller do inicio e possui a função de ao clicar os botões na classe view do inicio se abra as cenas dos produtos.
+ */
 
 public class ControllerInicio {
 
@@ -49,8 +49,6 @@ public class ControllerInicio {
         stage.setScene(cena);
         stage.setTitle("Calcular Cimento");
         stage.show();
-    } {
-
     }
 
     @FXML

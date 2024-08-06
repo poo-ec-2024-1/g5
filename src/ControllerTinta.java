@@ -10,19 +10,23 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Esta classe representa a classe controller da tinta e possui a função de calcular orçamento da tinta para mostrar na classe view da tinta.
+ */
+
 public class ControllerTinta {
 
     @FXML
-    private TextField campoMetro1;
+    public TextField campoMetro1;
 
     @FXML
-    private TextField campoMetro2;
+    public TextField campoMetro2;
 
     @FXML
-    private Label labelResultado;
+    public Label labelResultado;
 
     @FXML
-    private Label labelPreco;
+    public Label labelPreco;
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {

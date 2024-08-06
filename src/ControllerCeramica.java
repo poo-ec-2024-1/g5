@@ -3,7 +3,6 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -11,19 +10,23 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Esta classe representa a classe controller da cerâmica e possui a função de calcular orçamento das cerâmicas para mostrar na classe view da cerâmica.
+ */
+
 public class ControllerCeramica {
 
     @FXML
-    private TextField campoMetro1;
+    public TextField campoMetro1;
 
     @FXML
-    private TextField campoMetro2;
+    public TextField campoMetro2;
 
     @FXML
-    private Label labelResultado;
+    public Label labelResultado;
 
     @FXML
-    private Label labelPreco;
+    public Label labelPreco;
 
     @FXML
     void botaoCalcularClicado(ActionEvent event) {

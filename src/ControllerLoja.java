@@ -3,29 +3,33 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.xml.crypto.Data;
 import java.io.IOException;
+
+/**
+ * Esta classe representa a classe controller da loja e possui a função de uma loja que opções de compras onde o usuário indica quanto de cada produto ele necessita após saber pelos orçamentos de cada produto e fazer um orçamento do valor total.
+ * o que armazena esses valores para serem usados no carrinho para finalizar a compra.
+ */
+
 public class ControllerLoja {
     @FXML
-    private Label labelAdicionado;
+    public Label labelAdicionado;
 
     @FXML
-    private TextField quantidadeCeramica;
+    public TextField quantidadeCeramica;
 
     @FXML
-    private TextField quantidadeCimento;
+    public TextField quantidadeCimento;
 
     @FXML
-    private TextField quantidadeTijolo;
+    public TextField quantidadeTijolo;
 
     @FXML
-    private TextField quantidadeTinta;
+    public TextField quantidadeTinta;
 
     @FXML
     void adicionarCeramica(ActionEvent event) {

@@ -6,6 +6,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Está classe "ProdutoRepository" realiza operações típicas de um "CRUD" (Create, Read, Update, Delete) para a entidade produto.
+ * Um "CRUD" que serve para carregar produtos do banco de dados, e usa ORMLite para simplificar essas operações.
+ */
+
 public class ProdutoRepository
 {
     private static Database database;

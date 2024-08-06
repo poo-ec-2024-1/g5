@@ -1,6 +1,10 @@
 import java.sql.*;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 
+/**
+ *A classe `Database` fornece funcionalidades básicas para abrir e fechar uma conexão com um banco de dados SQLite, utilizando a biblioteca ORMLite para simplificar o gerenciamento da conexão JDBC.
+ */
+
 public class Database
 {
     private String databaseName = null;

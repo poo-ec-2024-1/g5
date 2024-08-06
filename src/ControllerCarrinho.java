@@ -10,18 +10,22 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Esta classe representa a classe controller do carrinho e possui a função de calcular o orçamento de cada produto após o usuário adicionar na classe view da loja retornando ao usuário o valor total do orçamento e de cada orçamento e retornando uma mensagem de compra realizda caso o usuário efetue a compra na classe view do carrinho.
+ */
+
 public class ControllerCarrinho {
 
     double precoCimento, precoTijolo, precoPorcelanato, precoTinta, precoTotal;
 
     @FXML
-    private TextArea campoCarrinho;
+    public TextArea campoCarrinho;
 
     @FXML
-    private TextArea campoCarrinho2;
+    public TextArea campoCarrinho2;
 
     @FXML
-    private Label compraRealizada;
+    public Label compraRealizada;
 
     @FXML
     void atualizarCarrinho(ActionEvent event) {
@@ -36,7 +40,7 @@ public class ControllerCarrinho {
 
         // Adiciona as quantidades no campoCarrinho
         for (Produto produto : produtos) {
-            if(produto.get_noCarrinho()== true) {
+            if(produto.get_noCarrinho()) {
                 campoCarrinho.appendText( produto.getNome() + " - Quantidade: " + produto.getQuantidade() + "\n");
             }
         }
