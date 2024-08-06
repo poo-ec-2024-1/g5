@@ -7,6 +7,8 @@
 - Data: 10 de julho de 2024
 - Commit referenciado: https://github.com/poo-ec-2024-1/g5#
 
+  Minha participação no projeto se deu principalmente pela descrição realizada no commit README, que foi utilizado por nos para exemplos de ideias e referências para o projeto. A diagramação também foi muito relevante para a fácil compreensão do projeto como um todo, exemplificando as Classes principais e fazendo com que a codificação ficasse muito mais intuitiva aos programadores, analista e testador.
+
 # 2. Objetivos do Projeto
 
 - **Objetivo Geral:** Criar um programa capaz de fornecer valores de materiais e outros produtos de construção de maneira rápida e intuitiva.
