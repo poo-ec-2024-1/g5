@@ -4,6 +4,7 @@
 Cargo Atribuído: Testador de Software
 
 Tarefas Atribuídas:
+
     Planejamento e execução de testes funcionais e não-funcionais.
     Elaboração de casos de teste.
     Identificação e report de bugs.
