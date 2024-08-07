@@ -63,7 +63,9 @@ e aplique, repita isso para todas as classes views do projeto.**
 
 ![caminhofinal](https://github.com/user-attachments/assets/f90fa74c-7fdd-4d4e-96cd-08a3b57c95ae)
 
-**7° Etapa:Para que o código rode a aplicação vá até a Classe view "Inicio" e de run nela, assim a aplicação vai rodar**
+**7° Etapa:Para que o código rode a aplicação vá até a Classe view "Inicio" e de run nela, assim a aplicação vai rodar.**
+
+
 
 
 
