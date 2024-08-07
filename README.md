@@ -32,9 +32,9 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 # Documentação
 **1°Etapa: Baixe as blibiotecas:** 
 
- Links para as blibiotecas: JavaFX: https://gluonhq.com/products/javafx/
+ Links para as blibiotecas: JavaFX: https://gluonhq.com/products/javafx/ ou por https://github.com/poo-ec-2024-1/g5/tree/main/lib                          
  
-                            Database(ORMlite):
+                            Database(ORMlite): https://github.com/poo-ec-2024-1/g5/tree/main/lib/Blibiotecas%20database
                             
 **2°Etapa: abrir o projeto na IDE**
 
