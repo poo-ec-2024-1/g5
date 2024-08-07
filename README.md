@@ -29,7 +29,8 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 
 * Casos de Uso: A usabilidade do nosso projeto cabe, principalmente, para o cliente que deseja comprar os materiais de construção apropriados para determinada área, priorizando sempre a maior emonomia possível. Com o usuário oferencendo as medidas essenciais para o cálculo da área ou região que deva ser construída ou reformada, o próprio sistema do aplicativo irá realizar os cálculos para o fornecimento dos produtos.
 
-# Documentação
+# Guia para configurar o Projeto
+
 **1°Etapa: Baixe as blibiotecas:** 
 
  Links para as blibiotecas: JavaFX: https://gluonhq.com/products/javafx/ ou por https://github.com/poo-ec-2024-1/g5/tree/main/lib                          
@@ -50,14 +51,18 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 
 ![adicionar lib 2](https://github.com/user-attachments/assets/ecfb9aac-3562-4e44-926b-b1241abbdb2a)
 
-**5° Etapa: Após adicionar as blibiotecas deve se configurar as classes, para isso deve se clicar em cada classe view para abrir as opções e clique na opção **"Modify Run Configuration"**, no nosso projeto as classes view estão descritas como os seguintes exemplos:**
+**5° Etapa: Após adicionar as blibiotecas deve se configurar a classe ínicio, para isso deve se clicar em cada classe view (ínicio) para abrir as opções e clique na opção **"Modify Run Configuration"**** 
 
- ![Captura de Tela (148)](https://github.com/user-attachments/assets/a94e1e08-d9f2-4c03-8548-6baa82782a64)
-
+ ![Captura de Tela (149)](https://github.com/user-attachments/assets/d3022d09-16ef-4029-ac62-3ff85cefde1a)
+ 
  ![config clsses](https://github.com/user-attachments/assets/3314b01a-2056-4e27-acc6-f055503198f2)
+
+ **OBS: no nosso projeto as classes view estão descritas como os seguintes exemplos:**
+ 
+ ![Captura de Tela (148)](https://github.com/user-attachments/assets/a94e1e08-d9f2-4c03-8548-6baa82782a64)
  
 **6° etapa: No Intellij após isso dentro desta tela vá até **"Modify options"** e escolha a opção **"Add VM options"** e após isso na caixa VM options adicione --module-path "caminho usado anteriormente das bibliotecas" --add-modules javafx.controls,javafx.fxml
-e aplique, repita isso para todas as classes views do projeto.**
+e aplique**
 
 ![add VM op](https://github.com/user-attachments/assets/4d72c076-f5dd-498c-8f5b-edb331567cb3)
 
@@ -65,7 +70,7 @@ e aplique, repita isso para todas as classes views do projeto.**
 
 **7° Etapa:Para que o código rode a aplicação vá até a Classe view "Inicio" e de run nela, assim a aplicação vai rodar.**
 
-
-
+# Abrindo o .jar
+Para abrir o g5.jar que está na pasta raiz do projeto (https://github.com/poo-ec-2024-1/g5/blob/main/g5.jar), basta encontrar o caminho dele no terminal e executar o seguinte código: java --module-path "SeuCaminhoDaPastaLibDoJavaFx" --add-modules javafx.controls,javafx.fxml -jar g5.jar Lembrando que o caminho entre aspas tem que ser o caminho da pasta do Javafx no seu computador
 
 
