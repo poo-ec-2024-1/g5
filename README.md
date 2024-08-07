@@ -51,12 +51,14 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
 ![adicionar lib 2](https://github.com/user-attachments/assets/ecfb9aac-3562-4e44-926b-b1241abbdb2a)
 
 **5° Etapa: Após adicionar as blibiotecas deve se configurar as classes, para isso deve se clicar em cada classe view para abrir as opções e clique na opção **"Modify Run Configuration"**, no nosso projeto as classes view estão descritas como os seguintes exemplos:**
+
  ![Captura de Tela (148)](https://github.com/user-attachments/assets/a94e1e08-d9f2-4c03-8548-6baa82782a64)
 
  ![config clsses](https://github.com/user-attachments/assets/3314b01a-2056-4e27-acc6-f055503198f2)
  
 **6° etapa: No Intellij após isso dentro desta tela vá até **"Modify options"** e escolha a opção **"Add VM options"** e após isso na caixa VM options adicione --module-path "caminho usado anteriormente das bibliotecas" --add-modules javafx.controls,javafx.fxml
 e aplique, repita isso para todas as classes views do projeto.**
+
 ![add VM op](https://github.com/user-attachments/assets/4d72c076-f5dd-498c-8f5b-edb331567cb3)
 
 ![caminhofinal](https://github.com/user-attachments/assets/f90fa74c-7fdd-4d4e-96cd-08a3b57c95ae)
