@@ -36,15 +36,15 @@ Dentre nossos planos, estão dentro a criação e desenvolvimento de um sistema 
  
                             Database(ORMlite): https://github.com/poo-ec-2024-1/g5/tree/main/lib/Blibiotecas%20database
                             
-**2°Etapa: abrir o projeto na IDE**
+**2°Etapa: Abrir o projeto na IDE (nesse projeto usamos o Intellij)**
 
 ![abrir projeto na IDE](https://github.com/user-attachments/assets/62fd671e-21fb-48d0-b1d8-0022eb8e36b9)
 
-**3-Etapa: após abrir o código vá na imagem do documento do projeto do código e abra as opções dele, procure por open module-settings**
+**3-Etapa: No Intellij após abrir o código do projeto vá na imagem do documento do projeto do código e abra as opções dele, procure por open module-settings**
 
 ![abrirconfigurracoes doa rquivo](https://github.com/user-attachments/assets/c3c27197-5b1b-4c88-94df-59ed2821b27b)
 
-**4° Etapa: vá a opção libraries e clique para adicione as blibiotecas à IDE, no Intellij basta colocar o caminho do arquivo onde estão as blibiotecas**
+**4° Etapa: Vá à opção libraries e clique para adicione as blibiotecas à IDE, no Intellij basta colocar o caminho do arquivo onde estão as blibiotecas**
 
 ![adicionar libraries](https://github.com/user-attachments/assets/c20b7307-08e6-453d-b15b-903abd90639f)
 
